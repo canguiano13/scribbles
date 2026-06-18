@@ -1,2 +1,2 @@
 # scribbles
-various website clones to practice frontend
+various projects to practice styling and frontend
