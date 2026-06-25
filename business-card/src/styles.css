@@ -1,0 +1,30 @@
+body {
+    margin: 20px auto;
+    font-family: Times New Roman, Times, serif;
+    font-size: 14px;
+}
+.avatar {
+    width: 150px;
+    border-radius: 2px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background: #050304;
+    color: #ffffff;
+    padding: 20px;
+    border-top: 10px solid #008000;
+    border-bottom: 10px solid #008000;
+}
+
+.card-text:hover {
+    transform: scale(1.05);
+    transition: 0.15s ease-in-out;
+    cursor: default;
+}
+.italic {
+    text-decoration: italic;
+}
