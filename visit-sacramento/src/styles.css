@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+img {
+    width: 100px;
+}
+
+/* top section */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    background-image: url("images/sacramento.jpg");
+    background-size: cover;
+    color: white;
+}
+.header h1 {
+    margin-bottom: 10px;
+    background-color: #1D3557;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.header h2 {
+    margin-top: 10px;
+    background-color: #457B9D;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+/* mid section */
+.main{
+    padding-top: 10px;
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+.activities-container {
+    display: flex;
+    justify-content: space-around;
+}
+.activity-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.activity-image {
+    margin: 10px 0;
+    border-radius: 50%;
+}
+.activity-description {
+    margin: 0 10px;
+}
+
+/* bottom card */
+.footer{
+    padding: 60px 180px;
+    color: #1D3557;
+}
+.card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #A8DADC;
+    border-bottom: 8px solid #1D3557;
+}
+.card-img {
+    border-radius: 8px;
+    padding: 20px;
+    width: 140px;
+}
+.card-right{
+    padding: 20px;
+}
