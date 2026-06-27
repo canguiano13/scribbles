@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "scoreboard";
+    src: url("./fonts/scoreboard.ttf");
+}
+/* full page */
+body {
+    margin: 0;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #eeeeee;
+    background-color: #1b244a;
+}
+
+/* two halves */
+.team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* individual section */
+.team-name{
+    margin: 0; 
+    margin-bottom: 20px;
+    font-weight: 1000;
+}
+.score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 140px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 6px;
+    background-color: black;
+    color: red;
+    font-family: "scoreboard", serif;
+}
+.score{
+    font-weight: 400;
+    font-size: 100px;
+}
+
+/* buttons */
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 0;
+    width: 200px;
+}
+.btn {
+    border: 1px solid white;
+    height: 48px;
+    font-size: 24px;
+    background: #1b244a;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid #9aaad8;
+    color: #9aaad8;
+    font-family: "scoreboard", serif;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out;
+
+}
