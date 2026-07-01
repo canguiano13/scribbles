@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: url("./images/table.png");
+    background-size: cover;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 8px auto;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background: goldenrod;
+    padding: 5px 0;
+    color: #016f32;
+    font-weight: bold;
+}
+.btn:hover {
+    transform: scale(1.05);
+    transition: ease-in 0.1s;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#header {
+    color: goldenrod;
+}
