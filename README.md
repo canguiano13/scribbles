@@ -5,6 +5,6 @@ various projects to practice styling and frontend
 - [basketball-scoreboard](./basketball-scoreboard): An interactive scoreboard for a game of basketball
 - [business-card](./business-card): A business card mockup for myself
 - [password-generator](./password-generator): A simple random password generator
-- [single-player-blackjack](./single-player-blackjack): Blackjack for one, there is no house.
+- [single-player-blackjack](./single-player-blackjack): Blackjack for one -- there is no house.
 - [unit-converter](./unit-converter): A simple conversion tool between common metric and imperial units
 - [visit-sacramento](./visit-sacramento): A brochure for the City of Sacramento
